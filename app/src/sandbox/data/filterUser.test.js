@@ -4,7 +4,7 @@ import {
   getPostByUserIdAndId,
 } from './filterUser';
 
-test('Get post by userId 1 ', () => {
+test('Get post by userId 1', () => {
   const res = getPostByUserId(1);
   expect(res.length).toBe(10);
 });
