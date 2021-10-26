@@ -1,7 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from './logo.svg';
 
 function App() {
+  const name = 'Magdiel'; //'Andreina';
+  const names = ['Magdiel', 'Andreina'];
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +19,12 @@ function App() {
         >
           Learn React
         </a>
+        <p>Hello {name}</p>
+        <ul>
+          {names.map((name) => (
+            <li>{name}</li>
+          ))}
+        </ul>
       </header>
     </div>
   );
