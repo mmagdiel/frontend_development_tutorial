@@ -25,6 +25,10 @@ function App() {
             <li>{name}</li>
           ))}
         </ul>
+        <div>
+          <div className="d-inline">Hola,</div>
+          <div className="d-inline">Como estas?</div>
+        </div>
       </header>
     </div>
   );
